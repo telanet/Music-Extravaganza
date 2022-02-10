@@ -1,0 +1,74 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+h1 { 
+    font-family: 'COCOGOOSE', sans-serif;
+}
+
+.main {
+    width: 100%;
+    background: url(images/music.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.program {
+    width: 100%;
+    background: #272a31;
+}
+
+.program-header{
+    text-align: center;
+}
+
+.program .program-header h2 {
+    color: #fff;
+}
+
+.program .program-header hr {
+    border-bottom: 3px solid #ec5264
+}
+
+.cards {
+    margin: 20px;
+}
+
+.sessions {
+    display: flex;
+    justify-content: space-between;
+    background: #272a31;
+}
+
+.sessions img {
+    width: 10%;
+    height: 10%;
+    padding: 10px;
+
+}
+
+
+.sessions h2 {
+    color: #ec5242;
+}
+
+.sessions p {
+    color: #fff;
+}
+
+.see-more button {
+
+}
+
+
