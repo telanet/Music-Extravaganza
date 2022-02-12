@@ -30,8 +30,6 @@ h3 {
   font-family: Lato, sans-serif;
 }
 
-/* section styling */
-
 .dayprogram {
   width: 100%;
   background: #272a31;
@@ -160,5 +158,47 @@ button:active {
     border: 0;
     background: 0;
     text-decoration: underline;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .dayprogram {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .dayprogram h2 {
+    font-size: 35px;
+  }
+
+  .dayprogram hr {
+    margin: 0 46%;
+  }
+
+  .individualevent {
+    text-align: center;
+    margin: 0 6%;
+    display: flex;
+    gap: 20px;
+  }
+
+  .event {
+    width: 18%;
+    display: block;
+    text-align: center;
+  }
+
+  .event img {
+    padding-top: 10px;
+    width: 37%;
+    height: 34%;
+  }
+
+  .event p {
+    font-size: 17px;
+  }
+
+  .programbtn button {
+    padding-bottom: 40px;
   }
 }

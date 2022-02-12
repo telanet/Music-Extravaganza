@@ -23,7 +23,7 @@
 
 ## Live Demo
 Live site URL
-[Live Demo Link](https://github.com/telanet/Music-Extravaganza/tree/music)
+[Live Demo Link](https://telanet.github.io/Music-Extravaganza/)
 
 ## Project Presentation
 

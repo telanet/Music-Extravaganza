@@ -12,6 +12,30 @@ body {
   flex-direction: column;
 }
 
+.nav1 {
+  display: none;
+  flex-direction: row-reverse;
+  background-color: #272a31;
+  height: 40px;
+  padding-right: 10%;
+}
+
+.nav1 a {
+  font-family: Lato, sans-serif;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.nav1 a:hover {
+  color: #ec5242;
+}
+
+.nav1 button {
+  border: none;
+  background: none;
+}
+
 .nav2 {
   display: none;
   padding-left: 10%;
@@ -67,8 +91,9 @@ body {
   text-transform: uppercase;
   background-image: linear-gradient(rgb(255 38 0 / 76%), rgb(255 51 0 / 57.5%)), url("../images/music.jpg");
   background-repeat: repeat;
-
-  /* background-clip: text; */
+  /* stylelint-disable */
+  background-clip: text;
+/* stylelint-enable */
   -webkit-text-fill-color: transparent;
   -webkit-font-smoothing: antialiased;
 }
@@ -151,54 +176,6 @@ button:active {
   height: 2px;
   width: 15%;
   background-color: #d3d3d3;
-}
-
-.programcards {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: 1fr;
-  align-items: center;
-  margin: 5px 3px;
-}
-
-.cards .img {
-  width: 10px;
-  height: 10px;
-}
-
-.card {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: #5f5f5f50;
-  padding: 3%;
-  text-align: center;
-  height: 100%;
-}
-
-.card:hover {
-  border: 2px solid white;
-}
-
-.program-img {
-  margin: 2%;
-}
-
-.program-title {
-  display: flex;
-  min-width: 130px;
-}
-
-.program-title h3 {
-  font-family: Lato, sans-serif;
-  color: #ec5242;
-  font-weight: bold;
-}
-
-.program-des {
-  font-family: Lato, sans-serif;
-  color: #d3d3d3;
-  margin-left: 5%;
 }
 
 .join-btn {
@@ -395,7 +372,7 @@ button:active {
 
 .nav-link {
   font-family: Lato, sans-serif;
-  color: white;
+  color: rgb(202 57 57);
   padding-bottom: 3%;
 }
 
@@ -530,12 +507,6 @@ button:active {
     display: none;
   }
 
-  .programcards {
-    margin-left: 10%;
-    margin-right: 10%;
-    grid-template-columns: repeat(5, 1fr);
-  }
-
   #license {
     display: flex;
     padding: 5%;
@@ -567,6 +538,8 @@ button:active {
   .singerscards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
   }
 
   .singerscards-preview {
