@@ -1,4 +1,5 @@
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
 
 * {
   margin: 0;
@@ -16,7 +17,7 @@ body {
 }
 
 h1 {
-  font-family: "COCOGOOSE", sans-serif;
+  font-family: COCOGOOSE, sans-serif;
 }
 
 p {
@@ -26,28 +27,28 @@ p {
 p,
 h2,
 h3 {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 /* section styling */
 
-.dayProgram {
+.dayprogram {
   width: 100%;
   background: #272a31;
 }
 
-.dayProgramHeader {
+.dayheader {
   text-align: center;
   padding: 24px 0;
 }
 
-.dayProgram h2 {
+.dayprogram h2 {
   margin-bottom: 15px;
   color: #fff;
   font-size: 32px;
 }
 
-.dayProgram hr {
+.dayprogram hr {
   border-bottom: 4px solid #ec5242;
   margin: 0 40%;
 }
@@ -56,8 +57,6 @@ h3 {
   margin: 24px 20px 0;
   padding-bottom: 20px;
 }
-
-/* day activities section */
 
 .event {
   display: flex;
@@ -124,19 +123,17 @@ button:active {
   border: 0;
 }
 
-/* Responsive design -> Tablet version */
-
 @media screen and (min-width: 768px) {
-  .dayProgramHeader {
+  .dayheader {
     padding-top: 37px;
     text-align: center;
   }
 
-  .dayProgramHeader h2 {
+  .dayheader h2 {
     font-size: 33px;
   }
 
-  .dayProgramHeader hr {
+  .dayheader hr {
     margin: 0 47%;
   }
 
@@ -163,49 +160,5 @@ button:active {
     border: 0;
     background: 0;
     text-decoration: underline;
-  }
-}
-
-/* Responsive design -> Desktop version */
-
-@media screen and (min-width: 1100px) {
-  .dayProgramHeader {
-    padding-top: 40px;
-    text-align: center;
-  }
-
-  .dayProgramHeader h2 {
-    font-size: 35px;
-  }
-
-  .dayProgramHeader hr {
-    margin: 0 46%;
-  }
-
-  .individualevent {
-    text-align: center;
-    margin: 0 6%;
-    display: flex;
-    gap: 20px;
-  }
-
-  .event {
-    width: 18%;
-    display: block;
-    text-align: center;
-  }
-
-  .event img {
-    padding-top: 10px;
-    width: 37%;
-    height: 34%;
-  }
-
-  .event p {
-    font-size: 17px;
-  }
-
-  .programbtn button {
-    padding-bottom: 40px;
   }
 }

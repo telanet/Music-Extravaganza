@@ -1,4 +1,5 @@
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
 
 * {
   margin: 0;
@@ -11,27 +12,6 @@ body {
   flex-direction: column;
 }
 
-.nav1 {
-  display: none;
-  background-color: #272a31;
-  height: 40px;
-  padding-right: 10%;
-}
-
-.nav1 a {
-  font-family: "Lato", sans-serif;
-  color: white;
-  text-decoration: none;
-}
-
-.nav1 a:hover {
-  color: #ec5242;
-}
-
-.nav1 button {
-  border: none;
-  background: none;
-}
 
 .nav2 {
   display: none;
@@ -43,7 +23,7 @@ body {
   border-bottom: 1px solid #d3d3d3;
 }
 
-.nav2Content {
+.navcontent {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +33,7 @@ body {
 .nav-item {
   text-decoration: none;
   color: #272a31;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   font-size: 16px;
   margin-left: 6%;
 }
@@ -62,7 +42,7 @@ body {
   color: #ec5242;
 }
 
-.navLogo {
+.navlogo {
   display: none;
 }
 
@@ -76,25 +56,25 @@ body {
 .world {
   padding-top: 15%;
   padding-left: 10%;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   font-size: 50px;
   color: #ec5242;
 }
 
 .title {
   padding-left: 10%;
-  font-family: "Cocogoose", sans-serif;
+  font-family: Cocogoose, sans-serif;
   font-size: 50px;
   text-transform: uppercase;
-  background-image: linear-gradient(rgb(255 38 0 / 76%), rgb(255 51 0 / 57.5%)), url("../images/it.jpg");
+  background-image: linear-gradient(rgb(255 38 0 / 76%), rgb(255 51 0 / 57.5%)), url("../images/music.jpg");
   background-repeat: repeat;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-font-smoothing: antialiased;
 }
 
-.textBox {
-  font-family: "Lato", sans-serif;
+.textbox {
+  font-family: Lato, sans-serif;
   color: #272a31;
   background-color: #d3d3d3;
   border: 2px solid white;
@@ -102,16 +82,15 @@ body {
   padding: 3%;
 }
 
-
 .day {
-  font-family: "Cocogoose", sans-serif;
+  font-family: Cocogoose, sans-serif;
   font-size: 22px;
   color: #d3d3d3;
   margin-left: 5%;
 }
 
 .place {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   color: #d3d3d3;
   font-size: medium;
   margin-left: 5%;
@@ -122,7 +101,6 @@ body {
   margin: 24px 20px 0;
   padding-bottom: 20px;
 }
-
 
 .programbtn {
   margin: 0 auto;
@@ -153,8 +131,8 @@ button:active {
   border: 0;
 }
 
-.singerTitle {
-  font-family: "Lato", sans-serif;
+.singertitle {
+  font-family: Lato, sans-serif;
   font-size: 30px;
   color: #272a31;
   margin-top: 5%;
@@ -175,15 +153,12 @@ button:active {
   background-color: #d3d3d3;
 }
 
-.programCards {
+.programcards {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr;
   align-items: center;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5px 3px;
 }
 
 .cards .img {
@@ -215,13 +190,13 @@ button:active {
 }
 
 .program-title h3 {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   color: #ec5242;
   font-weight: bold;
 }
 
 .program-des {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   color: #d3d3d3;
   margin-left: 5%;
 }
@@ -229,7 +204,7 @@ button:active {
 .join-btn {
   border: none;
   background-color: #ec5242;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   letter-spacing: 2px;
   font-weight: bold;
   color: white;
@@ -247,7 +222,7 @@ button:active {
   padding-bottom: 2%;
 }
 
-.singersCards {
+.singerscards {
   display: none;
   grid-gap: 1rem;
   grid-template-columns: 1fr;
@@ -257,7 +232,7 @@ button:active {
   margin-top: 5%;
 }
 
-.singersCards-preview {
+.singerscards-preview {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr;
@@ -268,21 +243,21 @@ button:active {
 }
 
 .singer-name {
-  font-family: "Cocogoose", sans-serif;
+  font-family: Cocogoose, sans-serif;
   font-size: 20px;
   font-weight: bold;
   color: #272a31;
 }
 
 .singer-position {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   font-size: medium;
   font-style: italic;
   color: #ec5242;
 }
 
 .singer-detail {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   color: #3b3c3f;
 }
 
@@ -303,7 +278,7 @@ button:active {
   align-content: center;
 }
 
-.singerPic {
+.singerpic {
   width: 150px;
   height: 150px;
   margin: 2%;
@@ -333,7 +308,7 @@ button:active {
   background-color: #272a31;
 }
 
-.sponsorTitle {
+.sponsortitle {
   margin-top: 20px;
   font-size: 40px;
 }
@@ -349,7 +324,7 @@ button:active {
 }
 
 .sponsor-item {
-  font-family: "Cocogoose", sans-serif;
+  font-family: Cocogoose, sans-serif;
   text-decoration: none;
   font-size: 25px;
   color: #7f8081;
@@ -366,12 +341,12 @@ button:active {
   margin-right: 10%;
 }
 
-#whiteLicense {
+#license {
   display: none;
   flex-direction: row;
 }
 
-#darkLicense {
+#license1 {
   display: none;
   background-color: #272a31;
   color: white;
@@ -381,7 +356,7 @@ button:active {
 }
 
 .licence-text {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   font-size: medium;
   color: #7f8081;
   max-width: 100%;
@@ -419,7 +394,7 @@ button:active {
 }
 
 .nav-link {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   color: white;
   padding-bottom: 3%;
 }
@@ -441,8 +416,8 @@ button:active {
   margin: 10%;
 }
 
-.aboutTitle {
-  font-family: "Cocogoose", sans-serif;
+.about-title {
+  font-family: Cocogoose, sans-serif;
   color: #ec5242;
   font-size: 50px;
   text-align: center;
@@ -454,27 +429,27 @@ button:active {
   margin-left: 15%;
   margin-right: 15%;
   text-align: center;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   color: #3b3c3f;
 }
 
 .logo-section {
-    border-bottom: 1px solid #d3d3d3;
-    border-top: 1px solid #d3d3d3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  border-bottom: 1px solid #d3d3d3;
+  border-top: 1px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .logo-border {
-    padding: 2%;
-    border: 2px solid #d3d3d3;
-    margin: 3%;
-  }
+.logo-border {
+  padding: 2%;
+  border: 2px solid #d3d3d3;
+  margin: 3%;
+}
 
-  #ml-logo {
-    max-width: 100%;
-  }
+#ml-logo {
+  max-width: 100%;
+}
 
 .gallery {
   display: flex;
@@ -516,12 +491,10 @@ button:active {
 
 .photo-caption {
   text-align: center;
-  font-family: "Cocogoose", sans-serif;
+  font-family: Cocogoose, sans-serif;
   color: white;
   font-weight: bold;
 }
-
-
 
 @media screen and (min-width: 768px) {
   .nav1 {
@@ -532,7 +505,7 @@ button:active {
     display: flex;
   }
 
-  .navLogo {
+  .navlogo {
     display: block;
     max-height: 80px;
     max-width: 120px;
@@ -546,7 +519,7 @@ button:active {
     font-size: 80px;
   }
 
-  .textBox,
+  .textbox,
   .day,
   .place {
     margin-left: 10%;
@@ -557,19 +530,19 @@ button:active {
     display: none;
   }
 
-  .programCards {
+  .programcards {
     margin-left: 10%;
     margin-right: 10%;
     grid-template-columns: repeat(5, 1fr);
   }
 
-  #whiteLicense {
+  #license {
     display: flex;
     padding: 5%;
     padding-left: 10%;
   }
 
-  #darkLicense {
+  #license1 {
     display: flex;
     padding-left: 10%;
   }
@@ -578,7 +551,7 @@ button:active {
     display: none;
   }
 
-  .mainProgram a {
+  .mainprogram a {
     display: block;
   }
 
@@ -591,12 +564,12 @@ button:active {
     justify-content: center;
   }
 
-  .singersCards {
+  .singerscards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .singersCards-preview {
+  .singerscards-preview {
     display: none;
   }
 

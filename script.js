@@ -39,9 +39,9 @@ const singers = [
 
 window.onload = () => {
   singers.forEach((lecture) => {
-    document.querySelector('.singersCards').innerHTML += `
+    document.querySelector('.singerscards').innerHTML += `
         <div class="card2">
-            <img class="singerPic" src="${lecture.picURL}" alt="${lecture.name}">
+            <img class="singerpic" src="${lecture.picURL}" alt="${lecture.name}">
             <div class="singer-info">
             <h3 class="singer-name">${lecture.name}</h3>
             <h4 class="singer-genre">${lecture.genre}</h4>
@@ -50,9 +50,9 @@ window.onload = () => {
             </div>
         </div>`;
   });
-  document.querySelector('.singersCards-preview').innerHTML = `
+  document.querySelector('.singerscards-preview').innerHTML = `
   <div class="card2">
-      <img class="singerPic" src="${singers[0].picURL}" alt="${singers[0].name}">
+      <img class="singerpic" src="${singers[0].picURL}" alt="${singers[0].name}">
       <div class="singer-info">
       <h3 class="singer-name">${singers[0].name}</h3>
       <h4 class="singer-genre">${singers[0].genre}</h4>
@@ -61,7 +61,7 @@ window.onload = () => {
       </div>
   </div>
   <div class="card2">
-      <img class="singerPic" src="${singers[1].picURL}" alt="${singers[1].name}">
+      <img class="singerpic" src="${singers[1].picURL}" alt="${singers[1].name}">
       <div class="singer-info">
       <h3 class="singer-name">${singers[1].name}</h3>
       <h4 class="singer-genre">${singers[1].genre}</h4>
@@ -85,8 +85,8 @@ function toggleMenu() {
 }
 menu.addEventListener('click', toggleMenu);
 
-const desktopCards = document.querySelector('.singersCards');
-const mobileCards = document.querySelector('.singersCards-preview');
+const desktopCards = document.querySelector('.singerscards');
+const mobileCards = document.querySelector('.singerscards-preview');
 const btn = document.querySelector('.more-btn');
 
 function showCards() {
