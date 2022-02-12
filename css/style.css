@@ -12,7 +12,6 @@ body {
   flex-direction: column;
 }
 
-
 .nav2 {
   display: none;
   padding-left: 10%;
@@ -68,7 +67,8 @@ body {
   text-transform: uppercase;
   background-image: linear-gradient(rgb(255 38 0 / 76%), rgb(255 51 0 / 57.5%)), url("../images/music.jpg");
   background-repeat: repeat;
-  background-clip: text;
+
+  /* background-clip: text; */
   -webkit-text-fill-color: transparent;
   -webkit-font-smoothing: antialiased;
 }

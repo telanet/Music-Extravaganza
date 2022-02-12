@@ -23,11 +23,11 @@
 
 ## Live Demo
 Live site URL
-[Live Demo Link]()
+[Live Demo Link](https://github.com/telanet/Music-Extravaganza/tree/music)
 
 ## Project Presentation
 
-The presentation of my project can be viewed from [here]()
+The presentation of my project can be viewed from [here](https://www.loom.com/share/803526bcaba1435c8887c085cb51635b)
 
 ## Getting Started
 
