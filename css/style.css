@@ -91,9 +91,7 @@ body {
   text-transform: uppercase;
   background-image: linear-gradient(rgb(255 38 0 / 76%), rgb(255 51 0 / 57.5%)), url("../images/music.jpg");
   background-repeat: repeat;
-  /* stylelint-disable */
   background-clip: text;
-/* stylelint-enable */
   -webkit-text-fill-color: transparent;
   -webkit-font-smoothing: antialiased;
 }
