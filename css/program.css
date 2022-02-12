@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
 
 * {
   margin: 0;
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "COCOGOOSE", sans-serif;
 }
 
 p {
@@ -26,7 +26,7 @@ p {
 p,
 h2,
 h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 /* section styling */
@@ -53,7 +53,7 @@ h3 {
 }
 
 .individualevent {
-  margin: 24px 20px 0 20px;
+  margin: 24px 20px 0;
   padding-bottom: 20px;
 }
 
@@ -62,7 +62,7 @@ h3 {
 .event {
   display: flex;
   justify-content: space-between;
-  background: rgba(211, 211, 211, 0.2);
+  background: rgb(211 211 211 / 20%);
   margin: 20px 0;
   transition: transform 0.5s;
 }
